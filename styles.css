@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
+
+header {
+    
+   
+    
+    text-align: left;
+}
+
+body {
+    background-image: url('map.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#logo {
+    float: left;
+    display: flex;
+    align-items: center;
+    margin: 0 10px;
+    font-size: medium;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    word-spacing: 10px;
+    background-color: rgb(44, 2, 2);
+    margin: 0;
+}
+
+#first {
+    float: left;
+}
+
+nav ul li {
+    margin: 0 90px;
+    background-color:rgb(44, 2, 2);
+}
+
+.navbar-button {
+    float: right;
+    padding: 40;
+    background-color: rgb(14, 13, 13); /* Adjust button color */
+    border: none;
+    color: rgb(248, 226, 226);
+    border-radius: 0;
+    cursor: pointer;
+    font-size: large;
+    height: 60px;
+    width: 100px;
+}
+
+.navbar-button:hover {
+    background-color: #d7e2ee; /* Adjust button color on hover */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: large;
+    align-items: center;
+}
+
+nav ul li a:hover {
+    color: #73ac0b; /* Color when hovering */
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+
+#main_button {
+    padding-right: 60px;
+    padding-left: 60px;
+    padding-top: 20px; /* Add some vertical padding */
+    padding-bottom: 20px; /* Add some vertical padding */
+    background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+    border: none;
+    border-radius: 0px;
+    cursor: pointer;
+    font-size: large;
+    fill-opacity: 0.5;
+}
+
+#main_button:hover {
+    background-color: #fafffd;
+}
+
+section {
+    margin: 0;
+    font-size: larger;
+}
+
+.fullscreen-text {
+    margin: 0;
+    font-size: 8em;
+    font-weight: bold;
+    text-align: center;
+    color:rgb(240, 216, 216);
+    text-shadow: 2px 2px rgb(10, 39, 4);
+    opacity: 0.65;
+    
+    width: 100%;
+    padding-bottom:250px;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.5)#333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media (max-aspect-ratio: 16/9) {
+    body {
+        background-size: contain;
+    }
+}
